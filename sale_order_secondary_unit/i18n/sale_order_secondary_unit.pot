@@ -41,5 +41,5 @@ msgstr ""
 
 #. module: sale_order_secondary_unit
 #: model:ir.model.fields,field_description:sale_order_secondary_unit.field_sale_order_line__secondary_uom_id
-msgid "Secondary uom"
+msgid "Secondary UoM"
 msgstr ""

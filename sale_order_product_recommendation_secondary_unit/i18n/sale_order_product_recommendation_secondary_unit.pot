@@ -40,7 +40,7 @@ msgstr ""
 
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line__secondary_uom_id
-msgid "Secondary Uom"
+msgid "Secondary UoM"
 msgstr ""
 
 #. module: sale_order_product_recommendation_secondary_unit
