@@ -10,27 +10,27 @@ _logger = logging.getLogger(__name__)
 
 def pre_init_hook(cr):
     _logger.info("Create discount columns in database")
-    cr.execute(
-        """
-        ALTER TABLE sale_order ADD COLUMN price_total_no_discount numeric;
-    """
-    )
-    cr.execute(
-        """
-        ALTER TABLE sale_order ADD COLUMN discount_total numeric;
-    """
-    )
-    cr.execute(
-        """
-        ALTER TABLE sale_order_line ADD COLUMN price_total_no_discount
-        numeric;
-    """
-    )
-    cr.execute(
-        """
-        ALTER TABLE sale_order_line ADD COLUMN discount_total numeric;
-    """
-    )
+    #cr.execute(
+    #    """
+    #    ALTER TABLE sale_order ADD COLUMN price_total_no_discount numeric;
+    #"""
+    #)
+    #cr.execute(
+    #    """
+    #    ALTER TABLE sale_order ADD COLUMN discount_total numeric;
+    #"""
+    #)
+    #cr.execute(
+    #    """
+    #    ALTER TABLE sale_order_line ADD COLUMN price_total_no_discount
+    #    numeric;
+    #"""
+    #)
+    #cr.execute(
+    #    """
+    #    ALTER TABLE sale_order_line ADD COLUMN discount_total numeric;
+    #"""
+    #)
 
 
 def post_init_hook(cr, registry):
